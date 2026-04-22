@@ -1,0 +1,9 @@
+8.新建一个远程库，在本地用git命令add和commit给文件添加管理啊，最后上传上去。
+	先看看有没有配置远程地址，配置上后推送已经添加git管理的文件（git status查看文件有没有被管理上，没有提示就是全管理上了）
+	git add
+	git commit -m "消息内容"
+	git remote -v  显示已配置的远程地址
+	git remote remove origin  删除现有的远程配置（origin是远程仓库的代称）
+	git remote add origin git@github.com:huhuhahu123/gitTest.git  添加 SSH 地址的远程仓库或者别的https地址
+	git push -u origin master   第一次推送时要加上-u
+	git clone git@github.com:huhuhahu123/gitTest.git  克隆回来
